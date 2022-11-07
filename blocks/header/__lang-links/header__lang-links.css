@@ -1,0 +1,16 @@
+/*Блок header*/
+/*Основной код для разрешения 1280px*/
+.header__lang-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+/*Расширение от 1024px до 1280px*/
+
+/*Расширение от 768px до 1024px*/
+
+/*Расширение от 320px до 768px*/
+
+

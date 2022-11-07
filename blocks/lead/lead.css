@@ -1,0 +1,39 @@
+/*Блок content, подблок lead*/
+/*Основной код для разрешения 1280px*/
+.lead {
+    max-width: 984px;
+    min-height: 1005px;
+    margin: 0 auto;
+    margin-bottom: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+/*Расширение от 1024px до 1280px*/
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        min-height: 962px;
+    }
+} 
+
+/*Расширение от 768px до 1024px*/
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 768px;
+        min-height: 862px;
+        margin-bottom: 88px;
+    }
+} 
+
+/*Расширение от 320px до 768px*/
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 320px;
+        min-height: 406px;
+        margin-bottom: 64px;
+    }
+} 
+

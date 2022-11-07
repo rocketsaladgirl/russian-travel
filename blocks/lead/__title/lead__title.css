@@ -1,0 +1,33 @@
+/*Блок content, подблок lead*/
+/*Основной код для разрешения 1280px*/
+.lead__title {
+    max-width: 720px;
+    min-height: 200px;
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    text-align: center;
+    font-size: 96px;
+    line-height: 100px;
+    font-weight: 900;
+}
+
+/*Расширение от 1024px до 1280px*/
+
+/*Расширение от 768px до 1024px*/
+
+/*Расширение от 320px до 768px*/
+@media screen and (max-width: 320px) {
+    .lead__title {
+        max-width: 288px;
+        min-height: 88px;
+        margin: 0;
+        margin-bottom: 16px;
+        padding: 0;
+        text-align: center;
+        font-size: 40px;
+        line-height: 44px;
+        font-weight: 900;
+    }
+} 
+

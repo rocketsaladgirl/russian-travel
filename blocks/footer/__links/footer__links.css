@@ -1,0 +1,30 @@
+/*Блок footer*/
+/*Основной код для разрешения 1280px*/
+.footer__links {
+  margin-right: 533px;
+  display: flex;
+  flex-direction: row;
+}
+
+/*Расширение от 1024px до 1280px*/
+@media screen and (max-width: 1024px) {
+  .footer__links {
+    margin-right: 277px;
+  }
+}
+
+/*Расширение от 768px до 1024px*/
+@media screen and (max-width: 768px) {
+  .footer__links {
+    margin-right: 69px;
+  }
+} 
+
+/*Расширение от 320px до 768px*/
+@media screen and (max-width: 320px) {
+  .footer__links {
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+  }
+} 

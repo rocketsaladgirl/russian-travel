@@ -1,0 +1,19 @@
+/*Блок header*/
+/*Основной код для разрешения 1280px*/
+.header__logo {
+  width: 176px;
+  height: 52px;
+}
+
+/*Расширение от 1024px до 1280px*/
+
+/*Расширение от 768px до 1024px*/
+
+/*Расширение от 320px до 768px*/
+@media screen and (max-width: 320px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+} 
+

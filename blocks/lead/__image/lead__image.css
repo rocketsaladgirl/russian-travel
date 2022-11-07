@@ -1,0 +1,35 @@
+/*Блок content, подблок lead*/
+/*Основной код для разрешения 1280px*/
+.lead__image {
+    width: 984px;
+    height: 615px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+/*Расширение от 1024px до 1280px*/
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        width: 928px;
+        height: 580px;
+    }
+} 
+
+/*Расширение от 768px до 1024px*/
+@media screen and (max-width: 768px) {
+    .lead__image {
+        width: 768px;
+        height: 480px;
+    }
+} 
+
+/*Расширение от 320px до 768px*/
+@media screen and (max-width: 320px) {
+    .lead__image {
+        width: 320px;
+        height: 200px;
+    }
+
+} 
+

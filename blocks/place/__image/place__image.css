@@ -1,0 +1,32 @@
+/*Блок content, подблок places*/
+/*Основной код для разрешения 1280px*/
+.place__image {
+    width: 460px;
+    height: 460px;
+    object-fit: cover;
+}
+
+/*Расширение от 1024px до 1280px*/
+@media screen and (max-width: 1024px) {
+    .place__image {
+        width: 440px;
+        height: 440px;
+    }
+} 
+
+/*Расширение от 768px до 1024px*/
+@media screen and (max-width: 768px) {
+    .place__image {
+        width: 340px;
+        height: 340px;
+    }
+} 
+
+/*Расширение от 320px до 768px*/
+@media screen and (max-width: 320px) {
+    .place__image {
+        width: 320px;
+        height: 320px;
+    }
+} 
+

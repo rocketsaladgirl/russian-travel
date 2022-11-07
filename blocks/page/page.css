@@ -1,0 +1,9 @@
+/*Общий блок всей страницы*/
+.page {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  background-color: #2A2C2F;
+}
+

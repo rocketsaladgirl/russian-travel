@@ -1,0 +1,37 @@
+/*Блок footer*/
+/*Основной код для разрешения 1280px*/
+.footer {
+  max-width: 1184px;
+  min-height: 18px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+/*Расширение от 1024px до 1280px*/
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+/*Расширение от 768px до 1024px*/
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+  }
+} 
+
+/*Расширение от 320px до 768px*/
+@media screen and (max-width: 320px) {
+  .footer {
+    max-width: 186px;
+    min-height: 310px;
+    margin: 0px 118px 24px 16px;
+    display: flex;
+    flex-direction: column;
+  }
+} 

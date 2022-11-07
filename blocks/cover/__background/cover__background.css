@@ -1,0 +1,54 @@
+/*Блок content, подблок cover*/
+/*Основной код для разрешения 1280px*/
+.cover__background {
+  width: 100%;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  background: url(../../../images/cover-trains.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cover__background::before {
+  width: 100%;
+  min-height: 100%;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(42, 44, 47, 0.3);
+
+}
+
+.cover__background:hover::before {
+  background-color: rgba(42, 44, 47, 0.8); 
+}
+
+/*Расширение от 1024px до 1280px*/
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    width: 1024px;
+    min-height: 640px;
+  }
+}
+
+/*Расширение от 768px до 1024px*/
+@media screen and (max-width: 768px) {
+  .cover__background {
+    width: 768px;
+    min-height: 480px;
+  }
+} 
+
+/*Расширение от 320px до 768px*/
+@media screen and (max-width: 320px) {
+  .cover__background {
+    max-width: 320px;
+    min-height: 200px;
+  }
+} 

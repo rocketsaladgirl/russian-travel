@@ -1,0 +1,48 @@
+/*Блок content, подблок places*/
+/*Основной код для разрешения 1280px*/
+.places {
+    max-width: 984px;
+    min-height: 3392px;
+    margin: 0 auto;
+    margin-bottom: 92px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 660px);
+    row-gap: 80px;
+}
+
+/*Расширение от 1024px до 1280px*/
+@media screen and (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+        min-height: 3292px;
+        grid-template-columns: 928px;
+        grid-template-rows: repeat(5, 640px);
+        row-gap: 80px;
+    }
+} 
+
+/*Расширение от 768px до 1024px*/
+@media screen and (max-width: 768px) {
+    .places {
+        max-width: 720px;
+        min-height: 2808px;
+        margin-bottom: 90px;
+        grid-template-columns: 720px;
+        grid-template-rows: repeat(5, 581px);
+        row-gap: 73px;
+    }
+} 
+
+/*Расширение от 320px до 768px*/
+@media screen and (max-width: 320px) {
+    .places {
+        max-width: 320px;
+        min-height: 5177px;
+        margin-bottom: 66px;
+        grid-template-columns: 320px;
+        grid-template-rows: repeat(5, 1042px);
+        row-gap: 50px;
+    }
+} 
+

@@ -1,0 +1,36 @@
+/*Блок content, подблок cover*/
+/*Основной код для разрешения 1280px*/
+.cover {
+  max-width: 1184px;
+  min-height: 740px;
+  margin: 0 auto;
+  margin-bottom: 92px;
+}
+
+/*Расширение от 1024px до 1280px*/
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    min-height: 640px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+/*Расширение от 768px до 1024px*/
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+    min-height: 480px;
+  }
+} 
+
+/*Расширение от 320px до 768px*/
+@media screen and (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+} 
