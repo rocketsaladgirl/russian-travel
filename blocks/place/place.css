@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 460px 484px;
     grid-template-rows: 152px 460px ;
-    grid-template-areas: 
+    grid-template-areas:
       "place__title place__website"
       "place__image place__paragraph";
     column-gap: 40px;
@@ -20,12 +20,12 @@
         height: 640px;
         grid-template-columns: 440px 456px;
         grid-template-rows: 152px 440px ;
-        grid-template-areas: 
+        grid-template-areas:
           "place__title place__website"
           "place__image place__paragraph";
         column-gap: 32px;
     }
-} 
+}
 
 /*Расширение от 768px до 1024px*/
 @media screen and (max-width: 768px) {
@@ -34,7 +34,7 @@
         height: 581px;
         grid-template-columns: 340px 352px;
         grid-template-rows: 92px 1fr ;
-        grid-template-areas: 
+        grid-template-areas:
           "place__title place__website"
           "place__image place__paragraph";
         column-gap: 28px;
