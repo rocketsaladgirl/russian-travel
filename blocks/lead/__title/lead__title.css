@@ -2,7 +2,6 @@
 /*Основной код для разрешения 1280px*/
 .lead__title {
     max-width: 720px;
-    min-height: 200px;
     margin: 0;
     margin-bottom: 32px;
     padding: 0;
@@ -20,7 +19,6 @@
 @media screen and (max-width: 320px) {
     .lead__title {
         max-width: 288px;
-        min-height: 88px;
         margin: 0;
         margin-bottom: 16px;
         padding: 0;

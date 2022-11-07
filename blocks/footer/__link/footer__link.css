@@ -1,7 +1,6 @@
 /*Блок footer*/
 /*Основной код для разрешения 1280px*/
 .footer__link {
-  min-height: 18px;
   margin-right: 18px;
   text-decoration: none;
   font-size: 16px;
@@ -25,7 +24,6 @@
 /*Расширение от 320px до 768px*/
 @media screen and (max-width: 320px) {
   .footer__link {
-    min-height: 24px;
     margin-bottom: 32px;
     font-size: 24px;
     line-height: 24px;
