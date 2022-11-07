@@ -5,7 +5,7 @@
     height: 660px;
     display: grid;
     grid-template-columns: 460px 484px;
-    grid-template-rows: 152px 460px ;
+    grid-template-rows: 152px 460px;
     grid-template-areas:
       "place__title place__website"
       "place__image place__paragraph";
@@ -19,7 +19,7 @@
         width: 928px;
         height: 640px;
         grid-template-columns: 440px 456px;
-        grid-template-rows: 152px 440px ;
+        grid-template-rows: 152px 440px;
         grid-template-areas:
           "place__title place__website"
           "place__image place__paragraph";
@@ -33,7 +33,7 @@
         width: 720px;
         height: 581px;
         grid-template-columns: 340px 352px;
-        grid-template-rows: 92px 1fr ;
+        grid-template-rows: 92px 1fr;
         grid-template-areas:
           "place__title place__website"
           "place__image place__paragraph";
