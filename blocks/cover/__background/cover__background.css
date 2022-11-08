@@ -1,7 +1,7 @@
 /*Блок content, подблок cover*/
 /*Основной код для разрешения 1280px*/
 .cover__background {
-  width: 100%;
+  max-width: 100%;
   min-height: 740px;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@
 /*Расширение от 1024px до 1280px*/
 @media screen and (max-width: 1024px) {
   .cover__background {
-    width: 1024px;
+    max-width: 1024px;
     min-height: 640px;
   }
 }
@@ -40,7 +40,7 @@
 /*Расширение от 768px до 1024px*/
 @media screen and (max-width: 768px) {
   .cover__background {
-    width: 768px;
+    max-width: 768px;
     min-height: 480px;
   }
 } 
