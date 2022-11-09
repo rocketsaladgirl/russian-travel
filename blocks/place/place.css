@@ -1,7 +1,8 @@
 /*Блок content, подблок places*/
 /*Основной код для разрешения 1280px*/
 .place {
-    width: 984px;
+    width: 100%;
+    max-width: 984px;
     height: 660px;
     display: grid;
     grid-template-columns: 460px 484px;
@@ -16,7 +17,7 @@
 /*Расширение от 1024px до 1280px*/
 @media screen and (max-width: 1024px) {
     .place {
-        width: 928px;
+        max-width: 928px;
         height: 640px;
         grid-template-columns: 440px 456px;
         grid-template-rows: 152px 440px;
@@ -30,7 +31,7 @@
 /*Расширение от 768px до 1024px*/
 @media screen and (max-width: 768px) {
     .place {
-        width: 720px;
+        max-width: 720px;
         height: 581px;
         grid-template-columns: 340px 352px;
         grid-template-rows: 92px 1fr;
@@ -44,7 +45,7 @@
 /*Расширение от 320px до 768px*/
 @media screen and (max-width: 320px) {
     .place {
-        width: 320px;
+        max-width: 320px;
         height: 1042px;
         grid-template-columns: 320px;
         grid-template-rows: 35px 46px 320px 1fr;

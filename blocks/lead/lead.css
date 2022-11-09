@@ -1,6 +1,7 @@
 /*Блок content, подблок lead*/
 /*Основной код для разрешения 1280px*/
 .lead {
+    width: 77%;
     max-width: 984px;
     min-height: 1005px;
     margin: 0 auto;
@@ -14,6 +15,7 @@
 /*Расширение от 1024px до 1280px*/
 @media screen and (max-width: 1024px) {
     .lead {
+        width: 90.6%;
         max-width: 928px;
         min-height: 962px;
     }
@@ -22,6 +24,7 @@
 /*Расширение от 768px до 1024px*/
 @media screen and (max-width: 768px) {
     .lead {
+        width: 100%;
         max-width: 768px;
         min-height: 862px;
         margin-bottom: 88px;
@@ -31,6 +34,8 @@
 /*Расширение от 320px до 768px*/
 @media screen and (max-width: 320px) {
     .lead {
+        margin: 0 auto;
+        width: 100%;
         max-width: 320px;
         min-height: 406px;
         margin-bottom: 64px;

@@ -1,6 +1,7 @@
 /*Блок footer*/
 /*Основной код для разрешения 1280px*/
 .footer {
+  width: 92.5%;  
   max-width: 1184px;
   min-height: 18px;
   margin: 0 auto;
@@ -22,6 +23,7 @@
 /*Расширение от 768px до 1024px*/
 @media screen and (max-width: 768px) {
   .footer {
+    width: 93.9%;
     max-width: 720px;
   }
 } 
@@ -29,6 +31,7 @@
 /*Расширение от 320px до 768px*/
 @media screen and (max-width: 320px) {
   .footer {
+    width: 58%;
     max-width: 186px;
     min-height: 310px;
     margin: 0px 118px 24px 16px;

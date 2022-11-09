@@ -14,10 +14,16 @@
 /*Расширение от 1024px до 1280px*/
 
 /*Расширение от 768px до 1024px*/
+@media screen and (max-width: 768px) {
+    .lead__title{
+        max-width: 100%;
+    }    
+}
 
 /*Расширение от 320px до 768px*/
 @media screen and (max-width: 320px) {
     .lead__title {
+        width: 90%;
         max-width: 288px;
         margin: 0;
         margin-bottom: 16px;
