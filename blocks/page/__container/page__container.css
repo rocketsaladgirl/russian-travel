@@ -1,6 +1,6 @@
 /*Общий блок всей страницы*/
 .page__container {
-  width: 100vw;  
+  width: 100vw;
   max-width: 1280px;
   margin: 0 auto;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -14,7 +14,7 @@
 @media screen and (max-width: 1024px) {
     .page__container {
         max-width: 1024px;
-    }  
+    }
 }
 
 @media screen and (max-width: 768px) {
