@@ -1,8 +1,8 @@
 /*Блок content, подблок places*/
 /*Основной код для разрешения 1280px*/
 .place__url-heading {
-    max-width: 100%;
-    min-height: 12px;
+    width: 100%;
+    max-width: 456px;
     margin: 0;
     margin-bottom: 12px;
     padding: 0;

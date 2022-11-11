@@ -1,6 +1,7 @@
 /*Блок content, подблок places*/
 /*Основной код для разрешения 1280px*/
 .place__description {
+    width: 100%;
     max-width: 484px;
 }
 

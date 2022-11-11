@@ -1,6 +1,8 @@
 /*Блок footer*/
 /*Основной код для разрешения 1280px*/
-.footer__links {
+.footer__links {  
+  margin: 0;  
+  padding: 0;  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -14,7 +16,6 @@
 @media screen and (max-width: 320px) {
   .footer__links {
     margin-bottom: 48px;
-    display: flex;
     flex-direction: column;
   }
 } 

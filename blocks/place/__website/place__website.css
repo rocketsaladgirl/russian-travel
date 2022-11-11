@@ -1,8 +1,10 @@
 /*Блок content, подблок places*/
 /*Основной код для разрешения 1280px*/
 .place__website {
+    width: 100%;
     max-width: 456px;
-    min-height: 46px;
+    display: flex;
+    flex-direction: column;
     align-self: end;
 }
 

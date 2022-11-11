@@ -1,8 +1,8 @@
 /*Блок content, подблок photo-grid*/
 /*Основной код для разрешения 1280px*/
 .photo-grid {
+    width: 92.5%;
     max-width: 1184px;
-    height: 671px;
     margin: 0 auto;
     margin-bottom: 92px;
     display: grid;
@@ -14,8 +14,8 @@
 /*Расширение от 1024px до 1280px*/
 @media screen and (max-width: 1024px) {
     .photo-grid {
+        width: 90.63%;
         max-width: 928px;
-        height: 942px;
         grid-template-columns: repeat(3, minmax(auto, 300px));
         grid-template-rows: repeat(4, 225px);
         gap: 14px;
@@ -25,10 +25,10 @@
 /*Расширение от 768px до 1024px*/
 @media screen and (max-width: 768px) {
     .photo-grid {
+        width: 93.74%;
         max-width: 720px;
-        height: 1664px;
         margin-bottom: 88px;
-        grid-template-columns: repeat(2, 352px);
+        grid-template-columns: repeat(2, minmax(auto, 352px));
         grid-template-rows: repeat(6, 264px);
         gap: 16px;
     }
@@ -38,7 +38,6 @@
 @media screen and (max-width: 320px) {
     .photo-grid {
         max-width: 288px;
-        height: 2724px;
         margin-bottom: 64px;
         grid-template-columns: 288px;
         grid-template-rows: repeat(12, 216px);
