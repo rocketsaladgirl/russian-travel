@@ -3,6 +3,8 @@
 .place__description {
     width: 100%;
     max-width: 484px;
+    margin: 0;
+    padding: 0;
 }
 
 /*Расширение от 1024px до 1280px*/

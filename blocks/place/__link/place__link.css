@@ -10,6 +10,7 @@
     font-weight: 400;
     text-decoration: underline;
     color: #FFFFFF;
+    box-sizing: border-box;
 }
 
 .place__link:hover {

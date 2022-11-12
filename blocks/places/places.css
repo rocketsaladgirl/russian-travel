@@ -7,8 +7,9 @@
     margin-bottom: 92px;
     display: grid;
     grid-template-columns: minmax(auto, 984px);
-    grid-template-rows: repeat(5, max-content);
+    grid-template-rows: repeat(5, minmax(auto, max-content));
     row-gap: 80px;
+    box-sizing: border-box;
 }
 
 /*Расширение от 1024px до 1280px*/
@@ -25,7 +26,7 @@
         max-width: 720px;
         margin-bottom: 90px;
         grid-template-columns: minmax(auto, 720px);
-        grid-template-rows: repeat(5, max-content);
+        grid-template-rows: repeat(5, minmax(auto, max-content));
         row-gap: 73px;
     }
 } 
@@ -36,7 +37,7 @@
         max-width: 320px;
         margin-bottom: 66px;
         grid-template-columns: 320px;
-        grid-template-rows: repeat(5, max-content);
+        grid-template-rows: repeat(5, minmax(auto, max-content));
         row-gap: 50px;
     }
 } 

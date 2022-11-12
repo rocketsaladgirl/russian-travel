@@ -8,6 +8,7 @@
     font-size: 72px;
     line-height: 76px;
     font-weight: 900;
+    box-sizing: border-box;
 }
 
 /*Расширение от 1024px до 1280px*/

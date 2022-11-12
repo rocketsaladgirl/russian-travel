@@ -7,7 +7,7 @@
     margin-bottom: 92px;
     display: grid;
     grid-template-columns: repeat(4, minmax(auto, 284px));
-    grid-template-rows: repeat(3, 213px);
+    grid-template-rows: repeat(3, minmax(auto,213px));
     gap: 16px;
 }
 
@@ -17,7 +17,7 @@
         width: 90.63%;
         max-width: 928px;
         grid-template-columns: repeat(3, minmax(auto, 300px));
-        grid-template-rows: repeat(4, 225px);
+        grid-template-rows: repeat(4, minmax(auto, 225px));
         gap: 14px;
     }
 } 
@@ -29,7 +29,7 @@
         max-width: 720px;
         margin-bottom: 88px;
         grid-template-columns: repeat(2, minmax(auto, 352px));
-        grid-template-rows: repeat(6, 264px);
+        grid-template-rows: repeat(6, minmax(auto, 264px));
         gap: 16px;
     }
 } 
@@ -37,10 +37,11 @@
 /*Расширение от 320px до 768px*/
 @media screen and (max-width: 320px) {
     .photo-grid {
+        width: 90%;
         max-width: 288px;
         margin-bottom: 64px;
         grid-template-columns: 288px;
-        grid-template-rows: repeat(12, 216px);
+        grid-template-rows: repeat(12, minmax(auto, 216px));
         gap: 12px;
     }
 } 

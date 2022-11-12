@@ -12,6 +12,7 @@
     letter-spacing: 2px;
     color: #AAAAAA;
     text-transform: uppercase;
+    box-sizing: border-box;
 }
 
 /*Расширение от 1024px до 1280px*/
