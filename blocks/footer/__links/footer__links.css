@@ -16,7 +16,7 @@
 
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 457px) {
+@media screen and (max-width: 661px) {
   .footer__links {
     margin-bottom: 48px;
     flex-direction: column;

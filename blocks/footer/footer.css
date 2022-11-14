@@ -20,7 +20,7 @@
 }
 
 /*Расширение от 768px до 1024px*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 973px) {
   .footer {
     width: 93.9%;
     max-width: 720px;
@@ -28,7 +28,7 @@
 } 
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 457px) {
+@media screen and (max-width: 661px) {
   .footer {
     width: 58%;
     max-width: 186px;

@@ -20,14 +20,14 @@
 }
 
 /*Расширение от 768px до 1024px*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 973px) {
     .footer__copyright {
         max-width: 25.86%;
     }
 }
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 457px) {
+@media screen and (max-width: 661px) {
   .footer__copyright {
     max-width: 186px;
     line-height: 14px;

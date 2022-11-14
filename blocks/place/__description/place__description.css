@@ -24,7 +24,7 @@
 } 
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 457px) {
+@media screen and (max-width: 661px) {
     .place__description {
         max-width: 288px;
         margin-right: 16px;

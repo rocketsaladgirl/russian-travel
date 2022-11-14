@@ -26,18 +26,16 @@
         max-width: 720px;
         margin-bottom: 90px;
         grid-template-columns: minmax(321px, 720px);
-        grid-template-rows: repeat(5, minmax(auto, max-content));
         row-gap: 73px;
     }
 } 
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 457px) {
+@media screen and (max-width: 661px) {
     .places {
         max-width: 320px;
         margin-bottom: 66px;
         grid-template-columns: 320px;
-        grid-template-rows: repeat(5, minmax(auto, max-content));
         row-gap: 50px;
     }
 } 

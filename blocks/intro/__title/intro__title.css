@@ -13,11 +13,6 @@
 /*Расширение от 1024px до 1280px*/
 
 /*Расширение от 768px до 1024px*/
-@media screen and (max-width: 768px) {
-    .intro__title {
-        max-width: 100%;
-    }
-} 
 
 /*Расширение от 320px до 768px*/
 @media screen and (max-width: 712px) {

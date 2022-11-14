@@ -2,8 +2,6 @@
 /*Основной код для разрешения 1280px*/
 .footer__link {
   margin-right: 18px;
-  display: block;
-  max-width: fit-content;
   text-decoration: none;
   font-size: 16px;
   line-height: 18px;
@@ -24,7 +22,7 @@
 /*Расширение от 768px до 1024px*/
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 457px) {
+@media screen and (max-width: 661px) {
   .footer__link {
     margin-bottom: 32px;
     font-size: 24px;
