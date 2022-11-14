@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     align-self: end;
-    word-break: break-all;
+    flex-wrap: wrap;
 }
 
 /*Расширение от 1024px до 1280px*/
@@ -20,7 +20,7 @@
 } 
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 457px) {
     .place__website {
         max-width: 288px;
         margin-right: 16px;

@@ -1,9 +1,11 @@
 /*Блок content, подблок cover*/
 /*Основной код для разрешения 1280px*/
 .footer__copyright {
-  max-width: 186px;
+  max-width: 15.71%;
+  width: 186px;
   margin: 0;
   padding: 0;
+  display: block;
   text-align: right;
   font-size: 14px;
   line-height: 16px;
@@ -11,12 +13,23 @@
 }
 
 /*Расширение от 1024px до 1280px*/
+@media screen and (max-width: 1024px) {
+    .footer__copyright {
+        max-width: 20.04%;
+    }
+}
 
 /*Расширение от 768px до 1024px*/
+@media screen and (max-width: 768px) {
+    .footer__copyright {
+        max-width: 25.86%;
+    }
+}
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 457px) {
   .footer__copyright {
+    max-width: 186px;
     line-height: 14px;
   }
 } 

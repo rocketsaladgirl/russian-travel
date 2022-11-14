@@ -1,10 +1,12 @@
 /*Блок content, подблок places*/
 /*Основной код для разрешения 1280px*/
 .place__link {
-    width: 100%;
     max-width: 456px;
+    width: fit-content;
     margin: 0;
     padding: 0;
+    display: block;
+    word-break: break-word;
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
@@ -27,7 +29,7 @@
 } 
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 457px) {
     .place__link {
         max-width: 288px;
     }

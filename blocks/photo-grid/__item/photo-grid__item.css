@@ -23,7 +23,7 @@
 } 
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 456px) {
     .photo-grid__item {
         max-width: 288px;
         height: 216px;

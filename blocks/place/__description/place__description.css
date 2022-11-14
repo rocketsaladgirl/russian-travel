@@ -1,10 +1,12 @@
 /*Блок content, подблок places*/
 /*Основной код для разрешения 1280px*/
 .place__description {
-    width: 100%;
     max-width: 484px;
+    width: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*Расширение от 1024px до 1280px*/
@@ -22,7 +24,7 @@
 } 
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 457px) {
     .place__description {
         max-width: 288px;
         margin-right: 16px;

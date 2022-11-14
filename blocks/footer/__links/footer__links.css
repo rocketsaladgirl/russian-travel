@@ -3,17 +3,20 @@
 .footer__links {  
   margin: 0;
   padding: 0;
+  width: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /*Расширение от 1024px до 1280px*/
 
 /*Расширение от 768px до 1024px*/
 
+
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 457px) {
   .footer__links {
     margin-bottom: 48px;
     flex-direction: column;

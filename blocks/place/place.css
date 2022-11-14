@@ -5,7 +5,7 @@
     max-width: 984px;
     margin: 0;
     display: grid;
-    grid-template-columns: minmax(30px, 460px) minmax(30px, 484px);
+    grid-template-columns: minmax(1%, 460px) minmax(1%, 484px);
     grid-template-rows: min-content 460px;
     grid-template-areas:
       "place__title place__website"
@@ -19,7 +19,7 @@
 @media screen and (max-width: 1024px) {
     .place {
         max-width: 927px;
-        grid-template-columns: minmax(30px, 440px) minmax(30px, 456px);
+        grid-template-columns: minmax(1%, 440px) minmax(1%, 456px);
         grid-auto-rows: min-content 440px;
         grid-template-areas:
           "place__title place__website"
@@ -32,7 +32,7 @@
 @media screen and (max-width: 768px) {
     .place {
         max-width: 720px;
-        grid-template-columns: minmax(10px, 340px) minmax(10px, 352px);
+        grid-template-columns: minmax(1%, 340px) minmax(1%, 352px);
         grid-template-rows: min-content auto;
         grid-template-areas:
           "place__title place__website"
@@ -42,7 +42,7 @@
 } 
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 457px) {
     .place {
         max-width: 320px;
         grid-template-columns: 320px;

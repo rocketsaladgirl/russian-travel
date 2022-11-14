@@ -14,14 +14,14 @@
 /*Расширение от 1024px до 1280px*/
 
 /*Расширение от 768px до 1024px*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 789px) {
     .lead__caption {
         margin-left: 24px;
     }
 } 
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 712px) {
     .lead__caption {
         margin-left: 16px;
     }

@@ -19,7 +19,7 @@
 } 
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 712px) {
     .intro__text {
         max-width: 288px;
         margin-bottom: 34px;

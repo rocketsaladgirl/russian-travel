@@ -2,6 +2,8 @@
 /*Основной код для разрешения 1280px*/
 .footer__link {
   margin-right: 18px;
+  display: block;
+  max-width: fit-content;
   text-decoration: none;
   font-size: 16px;
   line-height: 18px;
@@ -20,19 +22,13 @@
 /*Расширение от 1024px до 1280px*/
 
 /*Расширение от 768px до 1024px*/
-@media screen and (max-width: 768px) {
-    .footer__link {
-      word-break: break-all;
-    }
-}
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 457px) {
   .footer__link {
     margin-bottom: 32px;
     font-size: 24px;
     line-height: 24px;
-    word-break: normal;
   }
   
   .footer__link:last-child {

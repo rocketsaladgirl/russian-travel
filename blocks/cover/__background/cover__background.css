@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   position: relative;
   text-decoration: none;
   background: url(../../../images/cover-trains.jpg) no-repeat;
@@ -47,9 +48,9 @@
 } 
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 606px) {
   .cover__background {
-    max-width: 320px;
+    width: 100%;
     min-height: 200px;
   }
 } 

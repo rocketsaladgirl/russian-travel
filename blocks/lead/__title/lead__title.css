@@ -6,6 +6,7 @@
     margin: 0;
     margin-bottom: 32px;
     padding: 0;
+    display: block;
     text-align: center;
     font-size: 96px;
     line-height: 100px;
@@ -16,19 +17,18 @@
 @media screen and (max-width: 1024px) {
     .lead__title {
         width: 78%;
-        word-wrap: break-word;
     }
 }
 
 /*Расширение от 768px до 1024px*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 789px) {
     .lead__title{
         width: 93.75%;
     }    
 }
 
 /*Расширение от 320px до 768px*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 712px) {
     .lead__title {
         width: 90%;
         max-width: 288px;

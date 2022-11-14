@@ -11,7 +11,6 @@
     text-align: center;
     color: #FFFFFF;
     z-index: 1;
-    word-wrap: break-word;
   }
   
   /*Расширение от 1024px до 1280px*/
@@ -29,7 +28,7 @@
   }
   
   /*Расширение от 320px до 768px*/
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 606px) {
     .cover__title {
       width: 90%;
       max-width: 288px;
