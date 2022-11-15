@@ -7,7 +7,6 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 /*Расширение от 1024px до 1280px*/

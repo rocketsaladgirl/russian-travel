@@ -6,7 +6,7 @@
     margin: 0;
     display: grid;
     grid-template-columns: minmax(1%, 460px) minmax(1%, 484px);
-    grid-template-rows: min-content 460px;
+    grid-template-rows: minmax() 460px;
     grid-template-areas:
       "place__title place__website"
       "place__image place__paragraph";
@@ -20,7 +20,7 @@
     .place {
         max-width: 927px;
         grid-template-columns: minmax(1%, 440px) minmax(1%, 456px);
-        grid-auto-rows: min-content 440px;
+        grid-auto-rows: minmax() 440px;
         column-gap: 32px;
     }
 }
@@ -30,7 +30,7 @@
     .place {
         max-width: 720px;
         grid-template-columns: minmax(1%, 340px) minmax(1%, 352px);
-        grid-template-rows: min-content auto;
+        grid-template-rows: minmax() auto;
         column-gap: 28px;
     }
 } 
@@ -40,7 +40,7 @@
     .place {
         max-width: 320px;
         grid-template-columns: 320px;
-        grid-template-rows: auto 46px 320px auto;
+        grid-template-rows: 35px 46px 320px minmax();
         grid-template-areas: 
           "place__title" 
           "place__website"

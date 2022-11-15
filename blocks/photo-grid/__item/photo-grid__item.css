@@ -4,6 +4,7 @@
     width: 100%;
     max-width: 284px;
     height: 213px;
+    object-fit: cover;
 }
 
 /*Расширение от 1024px до 1280px*/
@@ -28,5 +29,5 @@
         max-width: 288px;
         height: 216px;
     }
-} 
+}
 
