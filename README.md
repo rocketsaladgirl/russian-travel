@@ -24,7 +24,7 @@
 2. открытие index.html
 
 
-С результатотом можно ознакомиться по ссылке: [Путешествия по России](https://rocketsaladgirl.github.io/russian-travel/).
+С результатом можно ознакомиться по ссылке: [Путешествия по России](https://rocketsaladgirl.github.io/russian-travel/).
 
 
 
